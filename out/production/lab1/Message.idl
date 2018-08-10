@@ -1,0 +1,8 @@
+module MessageApp {
+    interface Message
+    {
+        string getMessage(in string s);
+        void sendMessage(in string s);
+        boolean login(in string name, in string pass);
+    };
+};
